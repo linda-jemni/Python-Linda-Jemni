@@ -10,10 +10,8 @@ d1  = {}
 
 e3 =str(input("choisis une lettre"))
 
-d1 = {}
-for i in d.keys () :
-	if i[0] != e3 :
-		d1 [i] = d[i]
-print (d1)
+to_del = [key for key in fr_ang if key.startswith(e3)] 
+for key in to_del: del fr_ang[key]
+
 
 print ("Tous les mots qui contiennent la lettre ", e3 , "sont supprimées")
