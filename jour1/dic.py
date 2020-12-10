@@ -8,6 +8,12 @@ print(d)
 
 d1  = {}
 
-for k in d.keys () :
-	if k[0] != b :
-		d1 [k] = d[k]
+e3 =str(input("choisis une lettre"))
+
+d1 = {}
+for i in d.keys () :
+	if i[0] != e3 :
+		d1 [i] = d[i]
+print (d1)
+
+print ("Tous les mots qui contiennent la lettre ", e3 , "sont supprimées")
