@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import sqlite3 
 
 from sqlite3 import Error
@@ -21,3 +20,5 @@ def create_table(conn, create_table_sql):
     except Error as e:
         print(e)
 
+if __name__ == '__main__':
+    cnnx = create_connection("dbfile.db")

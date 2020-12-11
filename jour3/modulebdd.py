@@ -392,4 +392,3 @@ def afficherCursus(conn):
 
     for matiere in rows:
         print(matiere)
->>>>>>> 802c16b6b2e5fc7057c661b0dbd75eab386584a5

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from modulebdd import *
 
 new_conn = create_connection("../database/GestionFormaton.db")
@@ -104,4 +103,3 @@ afficherMatiereCursus(new_conn,('Java',))
 
 print("afficherCursus")
 afficherCursus(new_conn)
->>>>>>> 802c16b6b2e5fc7057c661b0dbd75eab386584a5
